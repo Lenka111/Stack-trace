@@ -5,9 +5,13 @@ import java.util.Scanner;
 
 public class Example {
     public static void main(String[] args) {
-
-        int result = divide();
-        System.out.println(result);
+ try {
+            int result = divide();
+            System.out.println(result);
+        } catch(ArithmeticException e){
+            System.out.println(e.toString());
+            System.out.println(e.getMessage());
+        }
     }
 
     private static int divide(){

@@ -8,6 +8,7 @@ public class Example {
  try {
             int result = divide();
             System.out.println(result);
+         // | inclusive or not the logical || (or)
         } catch(ArithmeticException | NoSuchElementException e){
             System.out.println(e.toString());
             System.out.println(e.getMessage());

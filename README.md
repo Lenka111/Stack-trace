@@ -1,3 +1,3 @@
 # Stack-trace
-Throwing and catching exceptions;
+Throwing and catching basic exceptions;
 Catching multiple exceptions;
